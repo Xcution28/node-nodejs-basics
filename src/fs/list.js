@@ -19,7 +19,7 @@ const list = async () => {
 
     try {
         // read the content of 'files'
-        const files = await fs.readdir(dir_path); // returns an array of filenames
+        const files = await fs.readdir(dir_path); // returns array of filenames
         console.log('files in directory:', files);
     } catch (error) {
         // error reading 'files'
