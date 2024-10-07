@@ -3,10 +3,8 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import { dirname } from 'path';
 
-
 const __filename = fileURLToPath(import.meta.url); // get name of file
 const __dirname = dirname(__filename); // get name of directory
-
 
 const create = async () => {
     const file_content = 'I am fresh and young!';
